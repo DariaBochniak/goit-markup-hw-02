@@ -1,11 +1,14 @@
 :root {
   --main-font: 'Roboto', sans-serif;
   --socondary-font: 'Raleway', sans-serif;
-  --main-color: #2196f3;
+  --main-color: #0c0a0a;
 }
 
 body {
   font-family: var(--main-font);
+  color: #2196f3;
+  --main-color:#2196f3
+  var(--main-color)
 }
 
 /* =============HEADER INDEX.HTML============ */
@@ -57,7 +60,7 @@ body {
   /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #ffffff;
   background: #2f303a;
 }
@@ -70,8 +73,8 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background: var(--main-color);
+  color: #740e0e;
+
   cursor: pointer;
 }
 .LOREM_IPSUM_ITEM {
@@ -119,13 +122,21 @@ body {
 /* =============/MAIN INDEX.HTML============ */
 
 /* =============FOOTER INDEX.HTML============ */
+
+.footer {
+  background-color: #212121;
+}
+
+.address.mail:hover
+.address-phone:hover
+
 .address {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1, 714;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #0e0404;
   background-color: #2f303a;
 }
 .address-mail,
@@ -135,11 +146,13 @@ body {
   font-size: 14px;
   line-height: 1, 714;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6); 
+  color: rgba(19, 7, 46, 0.6); 
   text-decoration: none;
 }
 
 /* =============FOOTER INDEX.HTML============ */
+
+
 
 /* =============FOOTER PORTFOLIO.HTML============ */
 .navigation-list-item-portfolio {
@@ -149,7 +162,7 @@ font-size: 14px;
 line-height: 1,142;
 letter-spacing: 0.02em;
   color: var(--main-color);
-  text-decoration: none;
+  text-decoration:#2f303a;
 }
 
  
@@ -222,7 +235,7 @@ letter-spacing: 0.02em;
   line-height: 1, 192;
   /* identical to box height */
   letter-spacing: 0.03em;
-      color: #FFFFFF;
+      color: #04080b;
 
 }
 }
